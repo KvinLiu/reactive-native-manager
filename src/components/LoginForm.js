@@ -25,7 +25,7 @@ class LoginForm extends Component {
           </Text>
 
         </View>
-      )
+      );
     }
   }
   renderButton() {
@@ -38,7 +38,7 @@ class LoginForm extends Component {
         >
         Login
       </Button>
-    )
+    );
   }
 
   render() {
@@ -89,8 +89,8 @@ const mapStateToProps = state => {
     password,
     error,
     loading
-  }
-}
+  };
+};
 
 export default connect(mapStateToProps, {
   emailChanged, passwordChanged, loginUser
