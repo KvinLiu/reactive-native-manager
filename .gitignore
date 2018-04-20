@@ -3,6 +3,7 @@
 .DS_Store
 ios/
 android/
+firebase_config.json
 
 # Xcode
 #
